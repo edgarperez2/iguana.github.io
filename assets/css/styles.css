@@ -1,0 +1,78 @@
+/*Esta linea es para codigo de google fonts en nuestra web*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+body {
+    font-family: 'Relaway', sans-serif;
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+}
+
+header img {
+    width:100%;
+    height: auto;
+}
+
+
+.desc-section {
+    display: flex;
+    background-color: #000000;
+    text-align: justify;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.desc-section div {
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+}
+.desc-section div img{
+    width: 100%;
+}
+
+.icons-section {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 20px;
+}
+.icons-section .icon {
+    display: inline-block;
+    width: 25%;
+}
+
+.section-img {
+    text-align: center;
+}
+.section-img img{
+    width: 316px;
+    height: 212px;
+    margin: 10px;
+    padding: 30px 0;
+}
+
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 35px 0;
+}
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: normal;
+}
